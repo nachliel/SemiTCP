@@ -1,0 +1,23 @@
+{
+  "name": "SemiUDP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha ./test/test.js",
+    "start": "node ./client.js"
+  },
+  "keywords": [],
+  "author": "Nachliel Shiloh Hills",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "node-rsa": "^1.0.1",
+    "uuid-v4": "^0.1.0"
+  }
+}
